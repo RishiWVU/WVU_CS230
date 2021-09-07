@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './headers/top-bar.component';
+import { FooterComponent } from './footers/footer.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, TopBarComponent],
+  declarations: [AppComponent, TopBarComponent, FooterComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
